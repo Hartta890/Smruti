@@ -3,7 +3,7 @@ kind: Pod
 metadata: 
  name: myjenkins-pod 
 spec:
- container:
+ containers:
   - name: myjenkins-container
     image: jenkins/jenkins
     ports:
